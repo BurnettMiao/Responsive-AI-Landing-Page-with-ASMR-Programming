@@ -29,7 +29,8 @@ img {
   object-fit: cover;
 }
 
-nav {
+nav,
+footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,7 +45,8 @@ nav .logo i {
   border-radius: 50%;
 }
 
-nav .nav-links {
+nav .nav-links,
+footer .copyright {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,14 +65,16 @@ nav .nav-links a:hover {
   color: #a3e635;
 }
 
-nav .nav-links .separator {
+nav .nav-links .separator,
+footer .copyright .separator {
   width: 5px;
   height: 5px;
   background: #a3e635;
   border-radius: 50%;
 }
 
-nav .nav-links p {
+nav .nav-links p,
+footer .copyright p {
   font-size: 13px;
 }
 
@@ -348,4 +352,8 @@ nav .login a {
   color: #a3e635;
   padding: 16px 16px 16px 24px;
   cursor: pointer;
+}
+
+footer .copyright {
+  width: 100%;
 }
